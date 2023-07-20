@@ -1,0 +1,22 @@
+img{
+    position:relative;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 90px;
+    height: 90px;
+    border-radius: 300px;
+}
+@keyframes bounce{
+    0%{
+        top:0px;
+    }
+  
+    50%{
+        top:700px;
+    }
+   
+    100%{
+        top:0px;
+    }
+}
